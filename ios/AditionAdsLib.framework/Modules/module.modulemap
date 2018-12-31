@@ -1,0 +1,7 @@
+framework module AditionAdsLib {
+  umbrella header "AditionAdsLib.h"
+
+  export *
+
+  module * { export * }
+}
