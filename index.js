@@ -1,3 +1,3 @@
-import AdBanner from 'src/AdBanner'
+import AdBanner from './src/AdBanner'
 
 export default AdBanner;
