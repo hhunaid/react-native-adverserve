@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":react-native-adverserve" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$/../../AditionDemo/android" external.system.id="GRADLE" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="android-gradle" name="Android-Gradle">
+      <configuration>
+        <option name="GRADLE_PROJECT_PATH" value=":react-native-adverserve" />
+      </configuration>
+    </facet>
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="SELECTED_BUILD_VARIANT" value="debug" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleDebug" />
+        <option name="COMPILE_JAVA_TASK_NAME" value="compileDebugSources" />
+        <afterSyncTasks>
+          <task>generateDebugSources</task>
+        </afterSyncTasks>
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/../../AditionDemo/node_modules/react-native-adverserve/android/src/main/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/../../AditionDemo/node_modules/react-native-adverserve/android/src/main/res" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/../../AditionDemo/node_modules/react-native-adverserve/android/src/main/assets" />
+        <option name="PROJECT_TYPE" value="1" />
+      </configuration>
+    </facet>
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 1.6" useProjectSettings="false">
+        <compilerSettings />
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/build/tmp/kotlin-classes/debug" />
+          <option name="classpath" value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.2.71/4ce93f539e2133f172f1167291a911f83400a5d0/kotlin-stdlib-jdk7-1.2.71.jar:/Users/hunaidhassan/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/218a0e7bab8f5ced6dc4d039821a6407/jars/classes.jar:/Users/hunaidhassan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/344e89aa18e45c614daa59c2505c4cdf/jars/classes.jar:/Users/hunaidhassan/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.71/d9717625bb3c731561251f8dd2c67a1011d6764c/kotlin-stdlib-1.2.71.jar:/Users/hunaidhassan/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/4165d8c4e41acfe0385a61bab093ab72/jars/classes.jar:/Users/hunaidhassan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/d595c9d64523f082a8f6dd681f5f376b/jars/classes.jar:/Users/hunaidhassan/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/2ca46bb1a97ef7e5e40a2cabd667c44b/jars/classes.jar:/Users/hunaidhassan/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/7ad7f0f47f87558aabf99613b16ffc85/jars/classes.jar:/Users/hunaidhassan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/4c6585634a1d7013ce8140df3e227dea/jars/classes.jar:/Users/hunaidhassan/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/951ad0b71bd1e33880007f3269506391/jars/classes.jar:/Users/hunaidhassan/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.1.1/39ded76b5e1ce1c5b2688e1d25cdc20ecee32007/support-annotations-27.1.1.jar:/Users/hunaidhassan/.gradle/caches/modules-2/files-2.1/com.facebook.infer.annotation/infer-annotation/0.11.2/f514ff4ca022a579d9cf7524846988b646ae4491/infer-annotation-0.11.2.jar:/Users/hunaidhassan/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar:/Users/hunaidhassan/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/5111bb46e2b06a8375914224436c9897/jars/classes.jar:/Users/hunaidhassan/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/08941d2bf8f57ec3aa480f676a276042/jars/classes.jar:/Users/hunaidhassan/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/7e67cf2eea83b5151e9ec040f8fec5cf/jars/classes.jar:/Users/hunaidhassan/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/0bf921b4f60a6395f8e15083d48c2fd7/jars/classes.jar:/Users/hunaidhassan/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/b941a949da2c15b240bb3cc758c2baed/jars/classes.jar:/Users/hunaidhassan/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/ecac15271e662291292476498942e25d/jars/classes.jar:/Users/hunaidhassan/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar:/Users/hunaidhassan/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.11.0/54ec442e9c0fac51265110cf0cb44dfe5ad1ea05/okhttp-urlconnection-3.11.0.jar:/Users/hunaidhassan/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.11.0/75966e05a49046ca2ae734e5626f28837a8d1e82/okhttp-3.11.0.jar:/Users/hunaidhassan/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.14.0/102d7be47241d781ef95f1581d414b0943053130/okio-1.14.0.jar:/Users/hunaidhassan/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/c46ce46d014fc96ee8f0957b3b35332f/jars/classes.jar:/Users/hunaidhassan/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.2.71/ba18ca1aa0e40eb6f1865b324af2f4cbb691c1ec/kotlin-stdlib-common-1.2.71.jar:/Users/hunaidhassan/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar:/Users/hunaidhassan/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/a2bf2d45f47c33cbce4fec48cc0810ad/jars/classes.jar:/Users/hunaidhassan/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/47f9a55c83b46ee93e5d07ce59d4a5da/jars/classes.jar:/Users/hunaidhassan/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/3334c28e609c137ca4562b726533884e/jars/classes.jar:/Users/hunaidhassan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/199c80efa9d4e7af7ea76dbf72c05de1/jars/classes.jar:/Users/hunaidhassan/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.0/edf3f7bfb84a7521d0599efa3b0113a0ee90f85/common-1.1.0.jar:/Users/hunaidhassan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/e43a04041de7bcf0cb0ac75aa0eacb38/jars/classes.jar:/Users/hunaidhassan/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.0/8007981f7d7540d89cd18471b8e5dcd2b4f99167/common-1.1.0.jar:/Users/hunaidhassan/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar:/Users/hunaidhassan/Library/Android/sdk/platforms/android-27/android.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="react-native-adverserve_debug" />
+          <option name="addCompilerBuiltIns" value="true" />
+          <option name="loadBuiltInsFromDependencies" value="true" />
+          <option name="languageVersion" value="1.2" />
+          <option name="apiVersion" value="1.2" />
+          <option name="pluginOptions">
+            <array>
+              <option value="plugin:org.jetbrains.kotlin.android:experimental=false" />
+              <option value="plugin:org.jetbrains.kotlin.android:enabled=true" />
+              <option value="plugin:org.jetbrains.kotlin.android:defaultCacheImplementation=hashMap" />
+            </array>
+          </option>
+          <option name="pluginClasspaths">
+            <array>
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions/1.2.71/bda3ee49317ef7a1e8058de61f91abe94c015538/kotlin-android-extensions-1.2.71.jar" />
+            </array>
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
+    <output url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/build/intermediates/classes/debug" />
+    <output-test url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/build/intermediates/classes/test/debug" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/build">
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/build/generated/source/apt/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/build/generated/source/r/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/build/generated/source/aidl/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/build/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/build/generated/source/rs/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/build/generated/res/rs/debug" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/build/generated/res/resValues/debug" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/build/generated/source/apt/androidTest/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/build/generated/source/r/androidTest/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/build/generated/source/aidl/androidTest/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/build/generated/source/buildConfig/androidTest/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/build/generated/source/rs/androidTest/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/build/generated/res/rs/androidTest/debug" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/build/generated/res/resValues/androidTest/debug" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/build/generated/source/apt/test/debug" isTestSource="true" generated="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/build/intermediates/attr" />
+      <excludeFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/build/intermediates/check-manifest" />
+      <excludeFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/build/intermediates/incremental" />
+      <excludeFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/build/intermediates/manifests" />
+      <excludeFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/build/intermediates/packaged-aidl" />
+      <excludeFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/build/intermediates/packaged_res" />
+      <excludeFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/build/intermediates/public_res" />
+      <excludeFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/build/intermediates/res" />
+      <excludeFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/build/intermediates/rs" />
+      <excludeFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/build/intermediates/symbols" />
+      <excludeFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/build/kotlin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/build/outputs" />
+      <excludeFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/build/tmp" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/androidTest/aidl">
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/androidTest/aidl" isTestSource="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/androidTest/assets">
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/androidTest/assets" type="java-test-resource" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/androidTest/java">
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/androidTest/java" isTestSource="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/androidTest/res">
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/androidTest/res" type="java-test-resource" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/androidTest/resources">
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/androidTest/resources" type="java-test-resource" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/androidTest/rs">
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/androidTest/rs" isTestSource="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/androidTest/shaders">
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/androidTest/shaders" isTestSource="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/androidTestDebug/aidl">
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/androidTestDebug/aidl" isTestSource="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/androidTestDebug/assets">
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/androidTestDebug/assets" type="java-test-resource" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/androidTestDebug/java">
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/androidTestDebug/java" isTestSource="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/androidTestDebug/res">
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/androidTestDebug/res" type="java-test-resource" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/androidTestDebug/resources">
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/androidTestDebug/resources" type="java-test-resource" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/androidTestDebug/rs">
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/androidTestDebug/rs" isTestSource="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/androidTestDebug/shaders">
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/androidTestDebug/shaders" isTestSource="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/debug/aidl">
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/debug/aidl" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/debug/assets">
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/debug/assets" type="java-resource" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/debug/java">
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/debug/java" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/debug/res">
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/debug/res" type="java-resource" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/debug/resources">
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/debug/resources" type="java-resource" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/debug/rs">
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/debug/rs" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/debug/shaders">
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/debug/shaders" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/main/aidl">
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/main/aidl" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/main/assets">
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/main/assets" type="java-resource" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/main/java">
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/main/java" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/main/res">
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/main/res" type="java-resource" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/main/resources">
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/main/resources" type="java-resource" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/main/rs">
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/main/rs" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/main/shaders">
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/main/shaders" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/test/aidl">
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/test/aidl" isTestSource="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/test/assets">
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/test/assets" type="java-test-resource" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/test/java">
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/test/java" isTestSource="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/test/res">
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/test/res" type="java-test-resource" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/test/resources">
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/test/resources" type="java-test-resource" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/test/rs">
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/test/rs" isTestSource="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/test/shaders">
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/test/shaders" isTestSource="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/testDebug/aidl">
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/testDebug/aidl" isTestSource="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/testDebug/assets">
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/testDebug/assets" type="java-test-resource" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/testDebug/java">
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/testDebug/java" isTestSource="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/testDebug/res">
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/testDebug/res" type="java-test-resource" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/testDebug/resources">
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/testDebug/resources" type="java-test-resource" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/testDebug/rs">
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/testDebug/rs" isTestSource="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/testDebug/shaders">
+      <sourceFolder url="file://$MODULE_DIR$/../../AditionDemo/node_modules/react-native-adverserve/android/src/testDebug/shaders" isTestSource="true" />
+    </content>
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="jdk" jdkName="Android API 27 Platform" jdkType="Android SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: com.facebook.fresco:fbcore-1.10.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.fresco:drawee-1.10.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.fresco:fresco-1.10.0" level="project" />
+    <orderEntry type="library" name="Gradle: android.arch.lifecycle:common:1.1.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.fresco:imagepipeline-okhttp3-1.10.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-annotations:27.1.1@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:animated-vector-drawable-27.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okhttp3:okhttp:3.11.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-compat-27.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.parse.bolts:bolts-tasks:1.4.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: android.arch.lifecycle:viewmodel-1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.2.71@jar" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.71@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okhttp3:okhttp-urlconnection:3.11.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.71@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-vector-drawable-27.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-core-ui-27.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-core-utils-27.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.webkit:android-jsc-r174650" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okio:okio:1.14.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: javax.inject:javax.inject:1@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-fragment-27.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.react:react-native-0.57.8" level="project" />
+    <orderEntry type="library" name="Gradle: android.arch.core:runtime-1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.soloader:soloader-0.5.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.infer.annotation:infer-annotation:0.11.2@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:appcompat-v7-27.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.findbugs:jsr305:3.0.2@jar" level="project" />
+    <orderEntry type="library" name="Gradle: android.arch.lifecycle:livedata-core-1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.fresco:imagepipeline-1.10.0" level="project" />
+    <orderEntry type="library" name="Gradle: android.arch.core:common:1.1.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.fresco:imagepipeline-base-1.10.0" level="project" />
+    <orderEntry type="library" name="Gradle: android.arch.lifecycle:runtime-1.1.0" level="project" />
+  </component>
+</module>
