@@ -9,7 +9,10 @@
   "author": "Hunaid Hassan",
   "license": "MIT",
   "peerDependencies": {
-    "react-native": ">=0.51",
-    "react": "*"
+    "react": "*",
+    "react-native": ">=0.51"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.2"
   }
 }
