@@ -2,7 +2,7 @@ import React from 'react';
 import {requireNativeComponent} from 'react-native';
 import PropTypes from 'prop-types'
 
-const RCTAdBanner = requireNativeComponent('RCTAdBanner');
+const RCTAdBanner = requireNativeComponent('RCTAdView');
 
 export default class AdBanner extends React.PureComponent {
   static propTypes = {

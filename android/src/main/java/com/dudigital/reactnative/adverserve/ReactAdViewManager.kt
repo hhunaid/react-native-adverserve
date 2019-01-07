@@ -7,7 +7,7 @@ import com.facebook.react.uimanager.annotations.ReactProp
 
 class ReactAdViewManager : SimpleViewManager<ReactAdView>() {
     companion object {
-        const val REACT_CLASS = "RCTAdBanner"
+        const val REACT_CLASS = "RCTAdView"
         const val CONTENT_ID_PROP = "contentUnitId"
         const val NETWORK_ID_PROP = "networkId"
         const val IS_INLINE_PROP = "isInline"

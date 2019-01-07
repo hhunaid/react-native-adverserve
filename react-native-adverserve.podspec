@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.author         = { "Hunaid Hassan" => "hhunaid@gmail.com" }
   s.ios.deployment_target = '7.0'
   s.license        = "Proprietary"
-  s.source_files   = 'ios/**/*.{h,m}'
+  s.source_files   = 'ios/ReactNativeAdverServe/*.{h,m}'
   s.source       = { :git => "https://github.com/oblador/react-native-keychain.git", :tag => "v#{s.version}" }
   s.vendored_frameworks = "ios/AditionAdsLib.framework"
   s.frameworks     = "AdSupport", "AssetsLibrary", "EventKit", "MediaPlayer", "MessageUI", "MobileCoreServices", "SystemConfiguration"
