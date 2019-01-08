@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		20BF2C6A21E3925D0058B089 /* RCTAdViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BF2C6921E3925D0058B089 /* RCTAdViewManager.m */; };
 		20BF2C6D21E396720058B089 /* RCTAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BF2C6C21E396720058B089 /* RCTAdView.m */; };
+		20F404A121E509FF009B8B84 /* RCTAdSDKHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F404A021E509FF009B8B84 /* RCTAdSDKHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,8 @@
 		20BF2C6921E3925D0058B089 /* RCTAdViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTAdViewManager.m; sourceTree = "<group>"; };
 		20BF2C6B21E396720058B089 /* RCTAdView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTAdView.h; sourceTree = "<group>"; };
 		20BF2C6C21E396720058B089 /* RCTAdView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTAdView.m; sourceTree = "<group>"; };
+		20F4049F21E509FF009B8B84 /* RCTAdSDKHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTAdSDKHelper.h; sourceTree = "<group>"; };
+		20F404A021E509FF009B8B84 /* RCTAdSDKHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTAdSDKHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,8 @@
 				20BF2C6921E3925D0058B089 /* RCTAdViewManager.m */,
 				20BF2C6B21E396720058B089 /* RCTAdView.h */,
 				20BF2C6C21E396720058B089 /* RCTAdView.m */,
+				20F4049F21E509FF009B8B84 /* RCTAdSDKHelper.h */,
+				20F404A021E509FF009B8B84 /* RCTAdSDKHelper.m */,
 			);
 			path = ReactNativeAdverServe;
 			sourceTree = "<group>";
@@ -126,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20BF2C6A21E3925D0058B089 /* RCTAdViewManager.m in Sources */,
+				20F404A121E509FF009B8B84 /* RCTAdSDKHelper.m in Sources */,
 				20BF2C6D21E396720058B089 /* RCTAdView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
