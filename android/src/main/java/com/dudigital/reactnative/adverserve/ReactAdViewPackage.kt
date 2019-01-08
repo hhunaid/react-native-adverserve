@@ -7,7 +7,7 @@ import com.facebook.react.uimanager.ViewManager
 
 class ReactAdViewPackage: ReactPackage {
     override fun createNativeModules(reactContext: ReactApplicationContext?): MutableList<NativeModule> {
-        return mutableListOf()
+        return mutableListOf(AdSDKHelperModule(reactContext))
     }
 
     override fun createViewManagers(reactContext: ReactApplicationContext?): MutableList<ViewManager<*, *>> {

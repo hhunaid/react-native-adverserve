@@ -18,7 +18,7 @@
 
 - (void)layoutSubviews{
     if (_inlineAdView == nil) {
-        _inlineAdView = [[AdsView alloc] initInlineWithFrame:self.frame delegate:self];
+        _inlineAdView = [[AdsView alloc] initInlineWithFrame:self.bounds delegate:self];
         [self loadAd];
     }
 }

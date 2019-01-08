@@ -3,8 +3,7 @@
 
 @implementation RCTAdSDKHelper {
     AdsOptOutHelper *_helper;
-    RCTPromiseResolveBlock resolver;
-    RCTPromiseRejectBlock rejecter;
+    RCTResponseSenderBlock _callback;
 }
 
 RCT_EXPORT_MODULE()
@@ -19,27 +18,25 @@ RCT_EXPORT_METHOD(optOut:(NSString *)networkID){
     [_helper optOut];
 }
 
-RCT_REMAP_METHOD(getStatus,
-                 getStatusForNetworkID:(NSString *)networkID
-                 resolver:(RCTPromiseResolveBlock)resolve
-                 rejecter:(RCTPromiseRejectBlock)reject){
+RCT_EXPORT_METHOD(getStatus:(NSString *)networkID
+                 callback:(RCTResponseSenderBlock)callback){
     _helper = [[AdsOptOutHelper alloc] initForNetwork:networkID withDelegate:self];
-    resolver = resolve;
-    rejecter = reject;
+    _callback = callback;
     [_helper status];
 }
 
 - (void)optOutHelper:(AdsOptOutHelper *)inOptOutHelper gotStatus:(NSInteger)inStatus{
-    if (resolver)
-        resolver([NSNumber numberWithInteger:inStatus]);
-    resolver = nil;
+    if (_callback)
+        _callback(@[[NSNull null], [NSNumber numberWithInteger:inStatus]]);
+    _callback = nil;
     _helper = nil;
 }
 
 -(void)optOutHelperFailed:(AdsOptOutHelper *)inOptOutHelper {
-    if (rejecter)
-        rejecter(@"Status fetch error", @"Couldn't fetch OptOut status", nil);
-    rejecter = nil;
+    if (_callback)
+        _callback(@[@"Couldn't fetch OptOut status"]);
+    _callback = nil;
+    _helper = nil;
 }
 
 RCT_EXPORT_METHOD(enableLimitedTracking:(BOOL)enabled){
