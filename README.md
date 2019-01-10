@@ -41,14 +41,14 @@ You can skip this part if ```link``` command works for you
   apply plugin: 'com.android.application'
   
   android {
-  ...
+    ...
   }
   
   dependencies {
-  implementation fileTree(dir: 'libs', include: ['*.jar'])
-  implementation "com.android.support:appcompat-v7:23.0.1"
-  implementation "com.facebook.react:react-native:+"  // From node_modules
-  + implementation project(':react-native-adverserve')
+      implementation fileTree(dir: 'libs', include: ['*.jar'])
+      implementation "com.android.support:appcompat-v7:23.0.1"
+      implementation "com.facebook.react:react-native:+"  // From node_modules
+  +   implementation project(':react-native-adverserve')
   }
     ```
   
@@ -76,19 +76,19 @@ You can skip this part if ```link``` command works for you
     
   ```
   allprojects {
-      repositories {
-          mavenLocal()
-          google()
-          jcenter()
-          maven {
-              // All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
-              url "$rootDir/../node_modules/react-native/android"
-          }
-   +      flatDir {
-   +          dirs 'libs'
-   +          dirs project(':react-native-adverserve').file('libs')
-   +      }
-      }
+     repositories {
+         mavenLocal()
+         google()
+         jcenter()
+         maven {
+             // All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
+             url "$rootDir/../node_modules/react-native/android"
+         }
+  +      flatDir {
+  +          dirs 'libs'
+  +          dirs project(':react-native-adverserve').file('libs')
+  +      }
+     }
   }
   ```
     
