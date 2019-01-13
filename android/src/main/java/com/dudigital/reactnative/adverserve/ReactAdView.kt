@@ -62,7 +62,8 @@ class ReactAdView(private val context: ReactContext): LinearLayout(context) {
             removeView(adView)
             adView = null
         }
-        adView = AditionView(context.currentActivity, contentId, networkID, isInline)
+        val appContext = context.currentActivity ?: return
+        adView = AditionView(appContext, contentId, networkID, isInline)
         if (gdprApplies) {
             adView?.gdprApplies()
         }
@@ -123,5 +124,11 @@ class ReactAdView(private val context: ReactContext): LinearLayout(context) {
                     MeasureSpec.makeMeasureSpec(height, MeasureSpec.EXACTLY))
             layout(left, top, right, bottom)
         }
+    }
+
+    fun closeAd() {
+        adView?.removeAllViews()
+        removeView(adView)
+        adView = null
     }
 }

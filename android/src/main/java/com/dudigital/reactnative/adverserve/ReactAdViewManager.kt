@@ -22,6 +22,11 @@ class ReactAdViewManager : SimpleViewManager<ReactAdView>() {
         return REACT_CLASS
     }
 
+    override fun onDropViewInstance(view: ReactAdView?) {
+        super.onDropViewInstance(view)
+        view?.closeAd()
+    }
+
     override fun getExportedCustomDirectEventTypeConstants(): MutableMap<String, Any> {
         return MapBuilder.of(
                 ReactAdView.AD_CLICKED_EVENT,
