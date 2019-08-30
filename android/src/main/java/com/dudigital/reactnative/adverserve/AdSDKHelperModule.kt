@@ -6,7 +6,7 @@ import com.adition.android.sdk.DoNotTrackHelper
 import com.adition.android.sdk.OptOutHelper
 import com.facebook.react.bridge.*
 
-class AdSDKHelperModule(context: ReactApplicationContext?): ReactContextBaseJavaModule(context) {
+class AdSDKHelperModule(context: ReactApplicationContext): ReactContextBaseJavaModule(context) {
     companion object {
         const val MODULE_NAME = "AdSDKHelper"
     }
