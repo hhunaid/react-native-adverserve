@@ -15,7 +15,8 @@ export default class AdBanner extends React.PureComponent {
     beforeAdSDKEvent: PropTypes.func,
     onAdSDKEvent: PropTypes.func,
     onAdSDKError: PropTypes.func,
-    onAdFiredEvent: PropTypes.func
+    onAdFiredEvent: PropTypes.func,
+    debugMode: PropTypes.bool
   };
 
   static defaultProps = {
@@ -26,7 +27,8 @@ export default class AdBanner extends React.PureComponent {
     beforeAdSDKEvent: null,
     onAdSDKEvent: null,
     onAdSDKError: null,
-    onAdFiredEvent: null
+    onAdFiredEvent: null,
+    debugMode: false
   };
 
   _beforeAdSDKEvent = (event) => {

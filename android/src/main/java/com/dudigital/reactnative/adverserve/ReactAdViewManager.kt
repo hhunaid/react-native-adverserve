@@ -1,5 +1,6 @@
 package com.dudigital.reactnative.adverserve
 
+import com.adition.android.sdk.util.Log
 import com.facebook.react.common.MapBuilder
 import com.facebook.react.uimanager.SimpleViewManager
 import com.facebook.react.uimanager.ThemedReactContext
@@ -12,6 +13,7 @@ class ReactAdViewManager : SimpleViewManager<ReactAdView>() {
         const val NETWORK_ID_PROP = "networkId"
         const val IS_INLINE_PROP = "isInline"
         const val GDPR_APPLIES_PROP = "gdprApplies"
+        const val DEBUG_MODE_PROP = "debugMode"
     }
 
     override fun createViewInstance(reactContext: ThemedReactContext): ReactAdView {
@@ -61,5 +63,14 @@ class ReactAdViewManager : SimpleViewManager<ReactAdView>() {
     @ReactProp(name = GDPR_APPLIES_PROP)
     fun setGdprApplies(adView: ReactAdView, gdprApplies: Boolean) {
         adView.gdprApplies = gdprApplies
+    }
+
+    @ReactProp(name = DEBUG_MODE_PROP)
+    fun setDebugMode(debugMode: Boolean) {
+        if (debugMode) {
+            Log.setLogLevel(Log.LEVEL_DEBUG)
+        }else {
+            Log.setLogLevel(Log.LEVEL_OFF)
+        }
     }
 }

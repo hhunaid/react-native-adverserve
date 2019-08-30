@@ -16,6 +16,14 @@
 
 @synthesize contentUnitId, networkId, gdprApplies;
 
+- (void)setDebugMode:(BOOL)debugMode {
+    [AdsView activateExternalErrorLog: debugMode];
+}
+
+- (BOOL)getDebugMode {
+    return [AdsView isExternalErrorLogActive];
+}
+
 - (void)layoutSubviews{
     if (_inlineAdView == nil) {
         _inlineAdView = [[AdsView alloc] initInlineWithFrame:self.bounds delegate:self];

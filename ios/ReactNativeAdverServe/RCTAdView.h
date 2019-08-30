@@ -10,6 +10,7 @@
 @property (nonatomic, strong) NSString *contentUnitId;
 @property (nonatomic, strong) NSString *networkId;
 @property (atomic, assign) BOOL gdprApplies;
+@property(setter=setDebugMode:, getter=getDebugMode, atomic, assign) BOOL debugMode;
 
 @property (nonatomic, copy) RCTBubblingEventBlock onAdClicked;
 @property (nonatomic, copy) RCTBubblingEventBlock onAdLoaded;
