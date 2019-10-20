@@ -6,7 +6,7 @@ import com.adition.android.sdk.DoNotTrackHelper
 import com.adition.android.sdk.OptOutHelper
 import com.facebook.react.bridge.*
 
-class AdSDKHelperModule(context: ReactApplicationContext): ReactContextBaseJavaModule(context) {
+class AdSDKHelperModule(context: ReactApplicationContext) : ReactContextBaseJavaModule(context) {
     companion object {
         const val MODULE_NAME = "AdSDKHelper"
     }
@@ -17,20 +17,20 @@ class AdSDKHelperModule(context: ReactApplicationContext): ReactContextBaseJavaM
 
     @ReactMethod
     fun optIn(networkId: String) {
-        OptOutHelper(networkId).setStatus(reactApplicationContext, 1)
+        OptOutHelper(networkId).status = 1
     }
 
     @ReactMethod
     fun optOut(networkId: String) {
-        OptOutHelper(networkId).setStatus(reactApplicationContext, 0)
+        OptOutHelper(networkId).status = 0
     }
 
     @ReactMethod
     fun getStatus(networkId: String, errorCallback: Callback, successCallback: Callback) {
-        val status = OptOutHelper(networkId).getStatus(reactApplicationContext)
+        val status = OptOutHelper(networkId).status
         if (status == -1) {
             errorCallback.invoke("Couldn't fetch OptOut status")
-        }else {
+        } else {
             successCallback.invoke(status)
         }
     }
@@ -46,10 +46,10 @@ class AdSDKHelperModule(context: ReactApplicationContext): ReactContextBaseJavaM
     }
 
     @ReactMethod
-    fun removeAllCookies(){
+    fun removeAllCookies() {
         if (Build.VERSION.SDK_INT >= 21) {
             CookieManager.getInstance().removeAllCookies(null)
-        }else {
+        } else {
             CookieManager.getInstance().removeAllCookie()
         }
 

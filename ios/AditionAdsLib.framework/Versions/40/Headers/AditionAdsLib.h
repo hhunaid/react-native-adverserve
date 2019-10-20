@@ -1,5 +1,0 @@
-#include "AdsView.h"
-#include "AdsInterstitialController.h"
-#include "AdsTagging.h"
-#include "AdsDoNotTrackHelper.h"
-#include "AdsOptOutHelper.h"

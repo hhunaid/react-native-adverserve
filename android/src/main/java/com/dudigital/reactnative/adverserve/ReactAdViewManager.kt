@@ -66,7 +66,7 @@ class ReactAdViewManager : SimpleViewManager<ReactAdView>() {
     }
 
     @ReactProp(name = DEBUG_MODE_PROP)
-    fun setDebugMode(debugMode: Boolean) {
+    fun setDebugMode(adView: ReactAdView, debugMode: Boolean) {
         if (debugMode) {
             Log.setLogLevel(Log.LEVEL_DEBUG)
         }else {

@@ -54,5 +54,5 @@ dependencies {
     implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'com.android.support:appcompat-v7:27.1.1'
     implementation "com.facebook.react:react-native:+"
-    implementation files('libs/AditionSDK-latest.aar')
+    implementation files('libs/AditionSDK-v46.aar')
 }
