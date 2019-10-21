@@ -1,5 +1,5 @@
 import React from 'react';
-import {requireNativeComponent} from 'react-native';
+import { requireNativeComponent, View } from 'react-native';
 import PropTypes from 'prop-types'
 
 const RCTAdBanner = requireNativeComponent('RCTAdView');
@@ -30,6 +30,10 @@ export default class AdBanner extends React.PureComponent {
     onAdFiredEvent: null,
     debugMode: false
   };
+
+  state = {
+    loaded: false
+  }
 
   _beforeAdSDKEvent = (event) => {
     if (!this.props.beforeAdSDKEvent) {
@@ -63,16 +67,25 @@ export default class AdBanner extends React.PureComponent {
     this.props.onAdSDKEvent(eventName, eventPayload);
   };
 
+  _onAdLoaded = () => {
+    this.setState({ loaded: true });
+    this.props.onAdLoaded();
+  }
+
 
   render() {
+    const { loaded } = this.state
     return (
-      <RCTAdBanner
-        {...this.props}
-        beforeAdSDKEvent={this._beforeAdSDKEvent}
-        onAdSDKEvent={this._onAdSDKEvent}
-        onAdSDKError={this._onAdSDKError}
-        onAdFiredEvent={this._onAdFiredEvent}
-      />
+      <View style={loaded ? null : { width: 0, height: 0, overflow: 'hidden' }}>
+        <RCTAdBanner
+          {...this.props}
+          beforeAdSDKEvent={this._beforeAdSDKEvent}
+          onAdSDKEvent={this._onAdSDKEvent}
+          onAdSDKError={this._onAdSDKError}
+          onAdFiredEvent={this._onAdFiredEvent}
+          onAdLoaded={this._onAdLoaded}
+        />
+      </View>
     );
   }
 }
